@@ -1,0 +1,17 @@
+{
+  "name": "her-phone",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Her Phone: an AI relationship experiment, reference materials and a self-contained presentation site.",
+  "type": "module",
+  "license": "UNLICENSED",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/site.test.mjs"
+  },
+  "devDependencies": {
+    "jszip": "3.10.1",
+    "lucide": "1.8.0"
+  }
+}

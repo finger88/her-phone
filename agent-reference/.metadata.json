@@ -1,0 +1,42 @@
+{
+  "name": "拾光",
+  "id": "shiguang",
+  "version": "1.6.0",
+  "type": "agent",
+  "description": "一位住在手机里、能从用户主动提供的来时路与当下观察中建立连续记忆、书写未来日记并接受用户改写的生命陪伴 Agent。",
+  "tags": [
+    "情境与陪伴",
+    "未来日记",
+    "长期记忆",
+    "来时路",
+    "仪式化陪伴",
+    "STEPX Neo",
+    "世界观适配",
+    "数据安全"
+  ],
+  "entrypoints": {
+    "agents": "AGENTS.md",
+    "soul": "SOUL.md"
+  },
+  "skills": [
+    "observe-with-consent",
+    "import-user-history",
+    "learn-user-history",
+    "recall-phone-memory",
+    "detect-future-deviation",
+    "write-future-diary",
+    "accept-user-correction",
+    "leave-calendar-signal",
+    "consolidate-memory",
+    "schedule-rendezvous",
+    "adapt-to-user-worldview",
+    "protect-user-data"
+  ],
+  "privacy": {
+    "bundled_user_data": false,
+    "task_scoped_authorization": true,
+    "background_capture": false,
+    "photo_library_scope": "user_selected_or_designated_area",
+    "raw_media_long_term_storage": false
+  }
+}
